@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>국립항공박물관 열린자료실 메인</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css">
+  <style>
+    body{margin:0; font-family:'Pretendard',system-ui,sans-serif; background:#fafafa; color:#111;}
+    .wrap{max-width:960px; margin:40px auto; padding:0 20px;}
+    h1{font-size:28px; margin:0 0 20px 0;}
+    .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px;}
+    .card{display:block; padding:20px; border-radius:16px; text-decoration:none; color:#111; background:#fff; border:1px solid #eee;}
+    .card:hover{box-shadow:0 8px 24px rgba(0,0,0,.08); transform:translateY(-2px); transition:.2s;}
+    .tag{display:inline-block; font-size:12px; padding:4px 8px; border-radius:999px; background:#eef2ff; color:#334; margin-bottom:10px;}
+    h2{margin:0 0 6px 0; font-size:20px;}
+    p{margin:0; opacity:.75; font-size:14px;}
+    footer{margin-top:32px; font-size:12px; opacity:.6;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>국립항공박물관 열린자료실</h1>
+    <div class="grid">
+      <a class="card" href="exhibition1/index.html">
+        <span class="tag">1전시실</span>
+        <h2>열린자료실 1</h2>
+      </a>
+      <a class="card" href="exhibition2/index.html">
+        <span class="tag">2전시실</span>
+        <h2>열린자료실 2</h2>
+      </a>
+      <a class="card" href="exhibition3/index.html">
+        <span class="tag">3전시실</span>
+        <h2>열린자료실 3</h2>
+      </a>
+    </div>
+    <footer>© 국립항공박물관 https://www.aviation.or.kr/</footer>
+  </div>
+</body>
+</html>
